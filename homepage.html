@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +10,38 @@
 </head>
 
 <body>
-  <!-- started  create Homepage -->
   <main class="flex justify-center">
-    <div class="mockup-phone border ring-emerald-950">
+    <div class="mockup-phone">
       <div class="mockup-phone-camera"></div>
-      <div class="mockup-phone-display">
-        <div class="stats shadow"></div>
-      </div>
+      <div class="mockup-phone-display text-black grid place-content-center bg-neutral-100">
 
-      <div class="stat">
-        <div class="stat-value">89400</div>
-        <div class="stat-desc">your Blance</div>
-      </div>
+        <div class="stats shadow">
+          <div class="stat">
+            <div class="stat-value">8400</div>
+            <div class="stat-desc">Available Balance</div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div>
+          <button class="btn btn-lg">Add Money</button>
+          <button class="btn btn-lg">Cash out</button>
+        </div>
+        <div class="divider"></div>
 
+        <div class="card-body">
+          <fieldset class="fieldset">
+            <label class="label">Enter Your amaount</label>
+            <input id="add-amaount" type="email" class="input" placeholder="Amaount" />
+            <label class="label">Pin</label>
+            <input  id="add-pin" type="password" class="input" placeholder="Pin" />
+            <button id="add-money" class="btn btn-neutral mt-4">Add Money</button>
+          </fieldset>
+        </div>
+      </div>
     </div>
-
   </main>
+  <script src="amaount.js"></script>
+
 </body>
+
 </html>
