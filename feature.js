@@ -1,5 +1,4 @@
 
-
 // Show Cash Out
 document.getElementById('show-cash-out').addEventListener('click', function () {
   document.getElementById('cash-out-main').classList.add('hidden'); // cash out show
