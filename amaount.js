@@ -1,6 +1,5 @@
 // console.log('enter your amaount');
 
-
 document.getElementById('add-money').addEventListener('click', function (event) {
   event.preventDefault();
   console.log('Succesfuly add Money');
